@@ -1,0 +1,8 @@
+ self.scroll = QScrollArea()
+
+ self.scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.scroll.setWidgetResizable(True)
+        self.scroll.setWidget(self.centralwidget)
+
+        MainWindow.setCentralWidget(self.scroll)
